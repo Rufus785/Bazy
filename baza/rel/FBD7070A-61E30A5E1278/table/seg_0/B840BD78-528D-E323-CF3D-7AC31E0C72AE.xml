@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B840BD78-528D-E323-CF3D-7AC31E0C72AE" name="users">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:32:14 UTC</createdTime>
+<generatorID>9D68627E-1B74-BFA3-B3E5-47D86A8B36EF</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A000948B-55F9-FB8A-9E22-98A7CA311570">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:32:14 UTC</createdTime>
+<generatorID>966BF24E-BA63-4267-F183-1CFB5A629C3C</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="070BF213-E4B6-8A21-7E80-A4BEC69B900A">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:32:14 UTC</createdTime>
+<generatorID>9FAC35A9-4561-C840-D374-68F57DD2DFEC</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="4499472D-CC8A-AD63-4839-9850D9A17953">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:32:14 UTC</createdTime>
+<generatorID>F43AC29B-2E43-A980-92CB-4C12F030EE1A</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adres" id="2D171D17-3CEB-6D09-5EB9-A3372C753D62">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:32:14 UTC</createdTime>
+<generatorID>95658232-C7DF-4F4E-1CBF-27EAB8E3E671</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nr_tel" id="A98D7EF6-1C3B-2FCF-EAE7-036641974E39">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:32:14 UTC</createdTime>
+<generatorID>BE218516-44F0-DAD2-6F75-62CB33B23DD6</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4367A974-F889-3DB0-281F-935556898E8F" name="users_PK">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:32:14 UTC</createdTime>
+<generatorID>0A9CDB3C-63BB-4356-01B6-60A7FDE0C86B</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A000948B-55F9-FB8A-9E22-98A7CA311570"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

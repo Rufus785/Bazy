@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="355D2CCB-B528-9E8A-8F5A-FADAAE070576" name="zwroty_towary">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:32:14 UTC</createdTime>
+<generatorID>1E7A6239-3088-12DA-5236-D812DAC28039</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8E546D91-CAB2-3107-AAFB-BD2267E68AB5">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:32:14 UTC</createdTime>
+<generatorID>3DE3E27B-150A-1A7D-D9E6-D9C35164529A</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zwroty_id" id="4D7C1512-A920-1134-9968-532AB4DF108B">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:32:14 UTC</createdTime>
+<generatorID>E202ED19-A49B-181C-270D-C0FB0F54C019</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47BE1773-B1B5-A118-E414-D29E8179158F" referredColumn="C41DFB33-A563-8301-FF8B-D5639D41A335"/>
+</associations>
+</Column>
+<Column name="Nazwa" id="9A1448C6-870D-331D-B52E-869D5227CE6A">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:32:14 UTC</createdTime>
+<generatorID>F08EF7BA-D023-819C-D28C-039E0C33D24E</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena" id="DD5B45CA-89BC-1E52-0D4E-79AE569D4C60">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:32:14 UTC</createdTime>
+<generatorID>379653B7-1094-F5E6-E501-5B44C9E8BD4F</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3CE3970E-0220-F4AB-9DBB-51D7A914E070" name="zwroty_towary_PK">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:32:14 UTC</createdTime>
+<generatorID>63838055-C3CF-9C1B-D294-816AE4C5ECB6</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E546D91-CAB2-3107-AAFB-BD2267E68AB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58618653-C24D-7AB4-A97F-02DB0FA101E4" name="zwroty_towary_zwroty_FK">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:32:14 UTC</createdTime>
+<generatorID>98718426-67D1-7F81-765A-CA905B2D73E1</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D7C1512-A920-1134-9968-532AB4DF108B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

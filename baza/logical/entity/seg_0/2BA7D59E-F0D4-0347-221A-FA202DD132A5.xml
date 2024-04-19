@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2BA7D59E-F0D4-0347-221A-FA202DD132A5" name="transakcje">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 07:58:27 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="FBD7070A-5833-76BB-F772-61E30A5E1278" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="DD89B8C3-CB36-43B3-79BA-9167C830D3B8">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:21:39 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="FBD7070A-5833-76BB-F772-61E30A5E1278" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="D66EBA03-368F-B9CD-BA83-2650267B359F">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:24:16 UTC</createdTime>
+<generatorID>68DD09FD-EC3F-BFC5-C7A2-DDA4CBD6403B</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="FBD7070A-5833-76BB-F772-61E30A5E1278" value="true"/>
+</engineerTo>
+<referedAttribute>833A5671-080C-156D-7EEF-1CCBA508BE89</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="F73AD17D-C658-D2E7-FA1B-63E8FF7DC5A1">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:24:25 UTC</createdTime>
+<generatorID>33E4A8D3-7337-896C-0F8F-C13161C7DA69</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="FBD7070A-5833-76BB-F772-61E30A5E1278" value="true"/>
+</engineerTo>
+<referedAttribute>A5DC62F7-8BA8-AE56-65D2-9BA791514A20</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cena_suma" id="D32A052F-8D59-600F-2B65-CBFE3148A0A6">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:29:15 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="FBD7070A-5833-76BB-F772-61E30A5E1278" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rodzaj_platnosci" id="2FD0A639-1382-AE49-8F46-ADCAC8B25613">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:30:41 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="FBD7070A-5833-76BB-F772-61E30A5E1278" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2B0D8807-EA25-A178-70F2-4BD7C7843238" name="transakcje PK">
+<createdBy>mikol</createdBy>
+<createdTime>2024-04-19 08:21:41 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="FBD7070A-5833-76BB-F772-61E30A5E1278" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD89B8C3-CB36-43B3-79BA-9167C830D3B8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
