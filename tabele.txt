@@ -1,0 +1,10 @@
+tabele:
+
+zamówienie
+zamówienie_towary
+towary
+kategorie
+users
+zwroty
+zwroty_towary
+transakcje
