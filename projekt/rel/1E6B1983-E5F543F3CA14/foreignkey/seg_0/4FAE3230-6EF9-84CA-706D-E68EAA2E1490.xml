@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4FAE3230-6EF9-84CA-706D-E68EAA2E1490" containerWithKeyObject="727575F9-838F-5B13-6292-D8BD185ADE6C" localFKIndex="D5CB4345-E5BE-F337-D150-816E620844DD" name="zwroty_towary_FK">
+<createdBy>Mariusz</createdBy>
+<createdTime>2024-04-27 10:47:48 UTC</createdTime>
+<generatorID>45B2589F-513D-8A97-A054-898850C98920</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<referredTableLongName>towary</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>58C09D6C-730B-1857-74D8-357AC15009C0</referredTableID>
+<keyObject>BD7BDDC9-D110-8A4D-4CC5-09D94054C1F4</keyObject>
+<referredKeyID>BD7BDDC9-D110-8A4D-4CC5-09D94054C1F4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_towary</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

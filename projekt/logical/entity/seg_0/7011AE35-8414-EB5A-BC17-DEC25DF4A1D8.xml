@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5609CCAD-7ED0-E49C-B949-6D41B8DB2A95" name="kategorie">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7011AE35-8414-EB5A-BC17-DEC25DF4A1D8" name="towary">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-25 15:58:01 UTC</createdTime>
+<createdTime>2024-04-25 16:09:32 UTC</createdTime>
 <ownerDesignName>projekt</ownerDesignName>
 <engineerTo>
 <item key="1E6B1983-95C9-97C8-BDC4-E5F543F3CA14" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_kategorie" id="1F306BB9-2DC5-68BB-AAAF-B4E77A1CA820">
+<Attribute name="id_towary" id="5EFECBCE-13EC-4DD7-F975-5B070A09048C">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-25 15:58:07 UTC</createdTime>
+<createdTime>2024-04-25 16:09:38 UTC</createdTime>
 <ownerDesignName>projekt</ownerDesignName>
 <engineerTo>
 <item key="1E6B1983-95C9-97C8-BDC4-E5F543F3CA14" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nazwa" id="FD6F734E-2D46-E450-2DAC-15CD40EEB7F5">
+<Attribute name="nazwa" id="B3CD217F-9C21-17C5-B6FF-2EB055CD3C40">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-25 15:58:19 UTC</createdTime>
+<createdTime>2024-04-25 16:09:44 UTC</createdTime>
 <ownerDesignName>projekt</ownerDesignName>
 <engineerTo>
 <item key="1E6B1983-95C9-97C8-BDC4-E5F543F3CA14" value="true"/>
@@ -39,24 +39,37 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="opis" id="E5BA40F1-D9A6-F68C-4CAF-B02958E59DE5">
+<Attribute name="aktualna_cena" id="70957673-AA00-2049-D7A6-6F9A4022F1FD">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-25 15:58:33 UTC</createdTime>
+<createdTime>2024-04-25 16:13:46 UTC</createdTime>
 <ownerDesignName>projekt</ownerDesignName>
 <engineerTo>
 <item key="1E6B1983-95C9-97C8-BDC4-E5F543F3CA14" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kategorie" id="3EB2200F-46E8-45B0-1AE0-E77FEE780F41">
+<createdBy>Mariusz</createdBy>
+<createdTime>2024-04-27 10:45:19 UTC</createdTime>
+<generatorID>3F9E494C-8BE6-9499-5A38-9135F41BF40D</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="1E6B1983-95C9-97C8-BDC4-E5F543F3CA14" value="true"/>
+</engineerTo>
+<referedAttribute>1F306BB9-2DC5-68BB-AAAF-B4E77A1CA820</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D879DD00-1A3E-44EF-0766-CCBBECBDE5D3" name="Entity_3 PK">
+<identifier id="27B53106-94FA-4A62-79C2-0CF9D04010A1" name="towary PK">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-25 15:58:18 UTC</createdTime>
+<createdTime>2024-04-25 16:09:43 UTC</createdTime>
 <ownerDesignName>projekt</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -64,7 +77,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>1F306BB9-2DC5-68BB-AAAF-B4E77A1CA820</attributeRef>
+<attributeRef>5EFECBCE-13EC-4DD7-F975-5B070A09048C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

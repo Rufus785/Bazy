@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="552B9E03-BB04-5BE3-4590-9228051978AB" containerWithKeyObject="727575F9-838F-5B13-6292-D8BD185ADE6C" localFKIndex="D3C979CC-A3FD-CC13-FCCC-F364EEDE1F3A" name="zwroty_zamowienia_FK">
+<createdBy>Mariusz</createdBy>
+<createdTime>2024-04-27 10:47:48 UTC</createdTime>
+<generatorID>4DBD3D05-30EE-D5DC-3B53-93F84F4526E4</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<referredTableLongName>zamowienia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>218E1F50-A469-D9F6-C0E0-AE7DE9762A6C</referredTableID>
+<keyObject>2730B380-7C50-1480-AA03-5BD19BE9E623</keyObject>
+<referredKeyID>2730B380-7C50-1480-AA03-5BD19BE9E623</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_zamowienia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

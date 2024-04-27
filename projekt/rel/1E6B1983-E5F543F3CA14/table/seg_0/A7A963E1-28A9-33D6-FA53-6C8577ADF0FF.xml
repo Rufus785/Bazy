@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7A963E1-28A9-33D6-FA53-6C8577ADF0FF" name="uzytkownicy">
+<createdBy>Mariusz</createdBy>
+<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<generatorID>45A7E940-0D22-5B2D-9FF3-63CE68BF5709</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_uzytkownicy" id="DADEB066-609A-C99E-D89C-E659D9746B19">
+<createdBy>Mariusz</createdBy>
+<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<generatorID>047FBAEF-B828-1FBE-DA44-A718A66C940F</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login" id="1B7FF260-70CC-5C2F-8103-2855B023BA87">
+<createdBy>Mariusz</createdBy>
+<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<generatorID>86DAB85F-E711-D202-EC09-FD6116F2C5E6</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT041</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="haslo" id="DDB52229-7E13-E706-B286-C484EFB30533">
+<createdBy>Mariusz</createdBy>
+<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<generatorID>786CAD49-A7E4-2E09-F4DB-AF26993FC748</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F101045-0F14-212A-6749-6F944986B4C1" name="uzytkownicy_PK">
+<createdBy>Mariusz</createdBy>
+<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<generatorID>212C4B0B-28B5-8FDD-71C0-1DEB3CA3845F</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DADEB066-609A-C99E-D89C-E659D9746B19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
