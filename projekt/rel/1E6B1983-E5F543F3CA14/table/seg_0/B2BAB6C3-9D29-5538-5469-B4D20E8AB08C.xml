@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A1BDA44-D7D2-56B0-B87D-0C8EAE44A6AF" name="zamowienia_towary">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2BAB6C3-9D29-5538-5469-B4D20E8AB08C" name="zamowienia_towary">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>5755C9DB-D80D-ED81-CCD4-8DCF486436C5</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_zam_towary" id="67B52CAA-49A6-98E3-8F34-15F93705096D">
+<Column name="id_zam_towary" id="3F89CBE4-A7E9-3E01-1318-2023A0E803C3">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>B0171FEE-6530-A458-F763-AA23AB9AF3E6</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ilosc" id="EC1D322C-B195-3119-753A-7E3F8D38C8CF">
+<Column name="ilosc" id="BA4AF915-2A90-6997-68A5-4773239C5B8D">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>6A9D9D3C-8999-008D-A228-C8BAA937AE8F</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,9 +30,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cena_szt" id="D1C1D1CF-2805-92C9-92D8-FA2531ED76F7">
+<Column name="cena_szt" id="47683E86-1F15-9E65-BDC5-08E9CE79C03B">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>6E9DB1B4-6CE2-C79F-9270-CC853700EF62</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -41,9 +41,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="zamowienia_id_zamowienia" id="C77CFE14-5CEF-F1EE-3EFF-1FBD245E2DA3">
+<Column name="zamowienia_id_zamowienia" id="788EE61A-5D4B-DE88-B9A8-1FE5C756E84E">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>EFD9FB63-A874-786E-5C40-AD1B1CDD6DD8</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -53,12 +53,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="9AF9DEF2-8362-4F7C-CE13-7148524E7C83" referredColumn="9160E3E4-C274-050F-5831-A35C7C123C25"/>
+<colAssociation fkAssociation="D372CD32-49DE-48F8-A4B1-9BD4982B641C" referredColumn="5E3BA356-EF0C-6484-5FEC-E4BAD0F63A95"/>
 </associations>
 </Column>
-<Column name="towary_id_towary" id="E1635BD2-D2C0-9F80-C9EC-64B9EDED42F5">
+<Column name="towary_id_towary" id="BC3B40A8-2BA5-797D-0604-4302AA95DDC7">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>E0593CE8-9C0D-C8EA-5BFC-4044A64BD8BA</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -68,43 +68,54 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="EDE5E08A-C7DB-600C-978A-B6A0265C3E6C" referredColumn="4702A17C-3DD9-C034-F237-8AE1F1CBDC32"/>
+<colAssociation fkAssociation="C9BD81DD-FE32-4396-B77F-6D4E0D7E1ABD" referredColumn="1CD3407D-7860-7F13-CA2D-AF6C35F9760D"/>
 </associations>
+</Column>
+<Column name="kwota" id="06DC68F9-A005-7056-C250-C566AB283050">
+<createdBy>Mariusz</createdBy>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
+<generatorID>FF0065D9-1878-82D6-DB33-83358512EB88</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="CC56C5DE-E761-8DF9-49D4-750E2EC989FD" name="zamowienia_towary_PK">
+<ind_PK_UK id="8B4D620B-C871-C865-30D8-B0CC7F46C68A" name="zamowienia_towary_PK">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>AD94596C-E395-8D43-5B00-061C3A5CBBD9</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="67B52CAA-49A6-98E3-8F34-15F93705096D"/>
+<colUsage columnID="3F89CBE4-A7E9-3E01-1318-2023A0E803C3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AD6E4C70-AF9C-DBAD-3E0F-EAC092D4A6CD" name="zamowienia_towary_zamowienia_FK">
+<ind_PK_UK id="F859C84D-DA19-03AD-731E-8F7189D52FAC" name="zamowienia_towary_zamowienia_FK">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:48 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>DCF1DBA8-328E-700E-4874-E50208ED51CD</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C77CFE14-5CEF-F1EE-3EFF-1FBD245E2DA3"/>
+<colUsage columnID="788EE61A-5D4B-DE88-B9A8-1FE5C756E84E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="042696D7-FA62-58F1-5104-4A65F3D7EC86" name="zamowienia_towary_towary_FK">
+<ind_PK_UK id="07F23573-CDD3-CB5E-2164-D3C71CE2ECAD" name="zamowienia_towary_towary_FK">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:48 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>AE4C673A-5D16-F997-B9D1-EDBEB7ECB1A1</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E1635BD2-D2C0-9F80-C9EC-64B9EDED42F5"/>
+<colUsage columnID="BC3B40A8-2BA5-797D-0604-4302AA95DDC7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -77,34 +77,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_towary" id="A0EDB42E-4082-3036-3BB6-980AABB9AD42">
-<createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:43:25 UTC</createdTime>
-<generatorID>45B2589F-513D-8A97-A054-898850C98920</generatorID>
-<ownerDesignName>projekt</ownerDesignName>
-<engineerTo>
-<item key="1E6B1983-95C9-97C8-BDC4-E5F543F3CA14" value="true"/>
-</engineerTo>
-<referedAttribute>5EFECBCE-13EC-4DD7-F975-5B070A09048C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_zamowienia" id="F730A743-DDDA-661B-5583-A77A5068F940">
-<createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:43:39 UTC</createdTime>
-<generatorID>4DBD3D05-30EE-D5DC-3B53-93F84F4526E4</generatorID>
-<ownerDesignName>projekt</ownerDesignName>
-<engineerTo>
-<item key="1E6B1983-95C9-97C8-BDC4-E5F543F3CA14" value="true"/>
-</engineerTo>
-<referedAttribute>31EDF0A8-967E-7095-2442-68878AEE3136</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id_uzytkownicy" id="874D3073-F3CC-8E8B-0D12-0B9C2EF98457">
 <createdBy>Mariusz</createdBy>
 <createdTime>2024-04-27 10:45:27 UTC</createdTime>
@@ -114,6 +86,34 @@
 <item key="1E6B1983-95C9-97C8-BDC4-E5F543F3CA14" value="true"/>
 </engineerTo>
 <referedAttribute>047FBAEF-B828-1FBE-DA44-A718A66C940F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_zam_towary" id="EA378321-0AE6-117A-9212-DDB3380EB9B0">
+<createdBy>Mariusz</createdBy>
+<createdTime>2024-05-11 09:55:23 UTC</createdTime>
+<generatorID>75863D44-7672-01B3-A801-F3A19A21AC62</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="1E6B1983-95C9-97C8-BDC4-E5F543F3CA14" value="true"/>
+</engineerTo>
+<referedAttribute>B0171FEE-6530-A458-F763-AA23AB9AF3E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_transakcje" id="5A1217BB-EEBB-334A-6648-692D87226A1E">
+<createdBy>Mariusz</createdBy>
+<createdTime>2024-05-11 10:10:45 UTC</createdTime>
+<generatorID>29C3BFF4-E065-B10B-D9B1-539318840CF1</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="1E6B1983-95C9-97C8-BDC4-E5F543F3CA14" value="true"/>
+</engineerTo>
+<referedAttribute>FE9265F1-87A9-B5BB-CB4D-25C80672E520</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

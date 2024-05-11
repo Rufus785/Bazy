@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="218E1F50-A469-D9F6-C0E0-AE7DE9762A6C" name="zamowienia">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="347DD62F-73D1-AC04-8AE1-088DB866C437" name="zamowienia">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>D18A5735-D3E9-EFCF-4C0A-4E34EB880E10</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_zamowienia" id="9160E3E4-C274-050F-5831-A35C7C123C25">
+<Column name="id_zamowienia" id="5E3BA356-EF0C-6484-5FEC-E4BAD0F63A95">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>31EDF0A8-967E-7095-2442-68878AEE3136</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="data" id="6B240648-DF88-2C62-BBD4-F097D99DBCB0">
+<Column name="data" id="73B37533-C715-FB9B-EE1E-29685BE71325">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>B59AD38F-410E-52D7-729F-83FE514A0CB9</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,9 +30,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="imie_nazwisko" id="973E1D80-0FD2-8227-C074-08272C5DC060">
+<Column name="imie_nazwisko" id="86A9AFC0-E9E1-753A-25B1-660EDE60A8F4">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>69A77E2E-DE51-5B78-CA6C-1B349DD26AE3</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -42,9 +42,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ulica_dostawy" id="980BFBCF-4BC7-4EB3-9B0F-18CC3677DDA5">
+<Column name="ulica_dostawy" id="229A0441-96E1-CA5B-9F5D-8C6DEB486701">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>470D88ED-345C-DBE8-ABF9-43006ACF67A5</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -53,9 +53,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nr_domu_dostawy" id="F9D974B4-2347-15C6-F4BF-502D37D7CA04">
+<Column name="nr_domu_dostawy" id="2FD6D920-7411-41A1-CCF2-9994D409F658">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>9998132C-1052-F1C5-F851-D9AFE3BE7007</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -64,9 +64,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="kod_pocztowy_dostawy" id="34B96414-3ED8-541B-BF80-C6D4609BAF0D">
+<Column name="kod_pocztowy_dostawy" id="C6D25755-B52B-EDC8-5658-D5FE3B777D63">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>5D4011E5-4992-A324-3B88-5DB6EAF34096</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -75,9 +75,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="miasto_dostawy" id="BD3E103A-8222-716F-77C7-EECB4D6E0A01">
+<Column name="miasto_dostawy" id="CE98C88B-9C20-28B5-D091-A83450F5476E">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>210E8774-D9D1-54E1-5A15-5D17507BBB57</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -86,9 +86,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="info_kurier" id="F3293733-21A3-5FB3-BB9F-7913EF09B6FA">
+<Column name="info_kurier" id="F93D5B22-2215-5E84-8A76-C2868BDCC46D">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>21BE4291-1930-A03C-6A47-A320CC3E4F95</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -98,9 +98,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="faktura" id="D960CA82-0949-762A-F75D-8198F62A8761">
+<Column name="faktura" id="679C3CEC-4CD2-E4C8-90EB-CC292C7DF3F0">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>447D97BE-5EFB-5A78-6CDF-13B6557FB05A</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -111,9 +111,9 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="status" id="5312A56C-094C-539F-C1B1-D14A34EBD7D7">
+<Column name="status" id="50DACE7F-E373-49A0-76AB-C5383E4DE844">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>138A66FC-36A2-C2DC-660A-179529F0D341</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -122,9 +122,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="uzytkownicy_id_uzytkownicy" id="70ED1C02-34DA-6322-CF05-6411BE39F9F5">
+<Column name="uzytkownicy_id_uzytkownicy" id="04BA8719-9E34-48D4-DD19-D5D8701F43E6">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>61E57220-85BA-385B-A901-13CA66D3C420</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -134,32 +134,69 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="3F977977-0902-C411-E76B-B25E9AFFDBBE" referredColumn="DADEB066-609A-C99E-D89C-E659D9746B19"/>
+<colAssociation fkAssociation="5A100CC0-B19F-4B04-A2CB-8FD430A3C972" referredColumn="BFC96C29-C7F8-B3DF-94CF-09BBD068E727"/>
+</associations>
+</Column>
+<Column name="transakcje_id_transakcje" id="30EB6FFD-5E49-E1DE-7363-ED7F9F086C13">
+<createdBy>Mariusz</createdBy>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
+<generatorID>7446F124-5B9F-D51C-8897-743ED82F350E</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C5A3090-321B-6FA5-79EC-E69BF1426A83" referredColumn="C52B700F-35AD-BCCC-4A51-55C45E342F22"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="2730B380-7C50-1480-AA03-5BD19BE9E623" name="zamowienia_PK">
+<ind_PK_UK id="326C5DAE-F05A-23EC-BC44-9D0DF81D3530" name="zamowienia_PK">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>2B74AA7B-E37A-1A2D-F4BB-882E68610DA3</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9160E3E4-C274-050F-5831-A35C7C123C25"/>
+<colUsage columnID="5E3BA356-EF0C-6484-5FEC-E4BAD0F63A95"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B50F03FC-06D2-8FB2-770F-96382022AD1E" name="zamowienia_uzytkownicy_FK">
+<ind_PK_UK id="2CAAE33C-013C-6570-74AD-5377AF82719A" name="zamowienia__IDX">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:48 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5234BAC1-6193-694E-2A96-531605EC3480</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="30EB6FFD-5E49-E1DE-7363-ED7F9F086C13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F820963B-941E-E0C9-F1D3-5BFFBA5CA638" name="zamowienia_transakcje_FK">
+<createdBy>Mariusz</createdBy>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
+<generatorID>5234BAC1-6193-694E-2A96-531605EC3480</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30EB6FFD-5E49-E1DE-7363-ED7F9F086C13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BFC6C57-1860-A667-D6FF-E5CD0A5B79F9" name="zamowienia_uzytkownicy_FK">
+<createdBy>Mariusz</createdBy>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>C431BC07-7FF3-7967-09DD-E339CDAEB576</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="70ED1C02-34DA-6322-CF05-6411BE39F9F5"/>
+<colUsage columnID="04BA8719-9E34-48D4-DD19-D5D8701F43E6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

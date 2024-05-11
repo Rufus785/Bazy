@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19B2450F-973D-E5DE-92CD-608E5326606E" name="kategorie">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="347BD770-29F7-3C4C-4330-1846637C17E2" name="uzytkownicy">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
-<generatorID>5609CCAD-7ED0-E49C-B949-6D41B8DB2A95</generatorID>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
+<generatorID>45A7E940-0D22-5B2D-9FF3-63CE68BF5709</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_kategorie" id="4C06FEED-243F-01D9-43CD-FE8333349D67">
+<Column name="id_uzytkownicy" id="BFC96C29-C7F8-B3DF-94CF-09BBD068E727">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
-<generatorID>1F306BB9-2DC5-68BB-AAAF-B4E77A1CA820</generatorID>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
+<generatorID>047FBAEF-B828-1FBE-DA44-A718A66C940F</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,23 +19,22 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nazwa" id="9BCE7F8C-EF58-E418-AD02-4474941D0F33">
+<Column name="login" id="3C543DC5-0D34-74AB-87A6-55CB856857CE">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
-<generatorID>FD6F734E-2D46-E450-2DAC-15CD40EEB7F5</generatorID>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
+<generatorID>86DAB85F-E711-D202-EC09-FD6116F2C5E6</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT041</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="opis" id="1A315F30-5DE6-E657-8F10-11A8683CD01A">
+<Column name="haslo" id="575C2329-1CF0-3021-689B-64AC4214657E">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
-<generatorID>E5BA40F1-D9A6-F68C-4CAF-B02958E59DE5</generatorID>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
+<generatorID>786CAD49-A7E4-2E09-F4DB-AF26993FC748</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -44,16 +43,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DA690A7B-D182-82CB-EE83-6B1AA88D6ECB" name="kategorie_PK">
+<ind_PK_UK id="CA39916D-B39F-331F-16BA-710CB60E26B5" name="uzytkownicy_PK">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
-<generatorID>D879DD00-1A3E-44EF-0766-CCBBECBDE5D3</generatorID>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
+<generatorID>212C4B0B-28B5-8FDD-71C0-1DEB3CA3845F</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4C06FEED-243F-01D9-43CD-FE8333349D67"/>
+<colUsage columnID="BFC96C29-C7F8-B3DF-94CF-09BBD068E727"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

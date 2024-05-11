@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAFC0642-57D3-B879-4244-59BA95F9111F" name="transakcje">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8ADC2BA-1BA0-820D-4A33-725FDDEAB13C" name="transakcje">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>C183D44E-D07D-C63A-7C55-EC2BE8E865B3</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_transakcje" id="45B4A84C-FE70-9BA3-D6DF-D4F1F15D2888">
+<Column name="id_transakcje" id="C52B700F-35AD-BCCC-4A51-55C45E342F22">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>FE9265F1-87A9-B5BB-CB4D-25C80672E520</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="typ_transakcji" id="E4748694-816A-2F73-2202-300E04EA03C6">
+<Column name="typ_transakcji" id="E9081F26-D338-E8C2-2B62-8138E6155B9D">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>7A1A1A50-0B69-3300-E72B-1141477EF284</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,9 +31,9 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="kwota" id="227DEE79-524E-E64E-D7A1-ACEC895DB134">
+<Column name="kwota" id="DD8BDB12-ECB4-3DD3-3B9E-F5BDC2A66963">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>549B7AFD-B7E2-3399-1543-610747B19C1B</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,9 +42,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nr_konta" id="1F182E53-9701-B46D-A86B-5AF170F42F6A">
+<Column name="nr_konta" id="132E4ED1-9486-2F65-8C17-173D89302848">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>96B3D996-C15E-4D61-9400-A9ED29CFDEFD</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -53,44 +53,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="zamowienia_id_zamowienia" id="1C007808-3D1F-8978-29D7-8615CEA9B36E">
-<createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
-<generatorID>5CD5180B-16B0-B093-BD83-DD3206CF8BFA</generatorID>
-<ownerDesignName>projekt</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B1EF6F5F-7CB2-D262-6F0A-06BC9B1BCBBD" referredColumn="9160E3E4-C274-050F-5831-A35C7C123C25"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="443F7E83-674B-30A0-CD36-35769CD527F4" name="transakcje_PK">
+<ind_PK_UK id="143E3FE5-B86C-0850-2A11-99A183A6A957" name="transakcje_PK">
 <createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:47 UTC</createdTime>
+<createdTime>2024-05-11 10:11:04 UTC</createdTime>
 <generatorID>F7FB46B6-4A1D-D779-C783-4338B1B9D02D</generatorID>
 <ownerDesignName>projekt</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="45B4A84C-FE70-9BA3-D6DF-D4F1F15D2888"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="1D618A93-48FC-F69C-D2FE-1808ABFDE188" name="transakcje_zamowienia_FK">
-<createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:47:48 UTC</createdTime>
-<generatorID>8AC84A3C-FB85-561A-205A-DFC83F07B9CF</generatorID>
-<ownerDesignName>projekt</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="1C007808-3D1F-8978-29D7-8615CEA9B36E"/>
+<colUsage columnID="C52B700F-35AD-BCCC-4A51-55C45E342F22"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -64,20 +64,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_zamowienia" id="5CD5180B-16B0-B093-BD83-DD3206CF8BFA">
-<createdBy>Mariusz</createdBy>
-<createdTime>2024-04-27 10:36:59 UTC</createdTime>
-<generatorID>8AC84A3C-FB85-561A-205A-DFC83F07B9CF</generatorID>
-<ownerDesignName>projekt</ownerDesignName>
-<engineerTo>
-<item key="1E6B1983-95C9-97C8-BDC4-E5F543F3CA14" value="true"/>
-</engineerTo>
-<referedAttribute>31EDF0A8-967E-7095-2442-68878AEE3136</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F7FB46B6-4A1D-D779-C783-4338B1B9D02D" name="transakcje PK">
